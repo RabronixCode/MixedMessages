@@ -2,11 +2,12 @@
 <html>
     <head>
         <title>Message for you</title>
+        <script src="messages.js"></script>
     </head>
     <body>
-        <h2 class="text">WELCOME TO RANDOM SENTENCES</h2>
-        <label for="name">Enter Your Name</label><br>
+        <h2 id="text">WELCOME TO RANDOM SENTENCES</h2>
+        <label for="name" id="label">Enter Your Name</label><br>
         <input type="text" name="name" id="name"/><br>
-        <button type="submit" onclick="messages.js">GIVE ME MY SENTENCE!</button>
+        <button type="submit" onclick="doIt()" id="button">GIVE ME MY SENTENCE!</button>
     </body>
 </html>
