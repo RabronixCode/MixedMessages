@@ -1,7 +1,7 @@
 const hi = ["Hello,", "Hi,", "Greetings"];
 const verb = ["are", "will", "were", "are going to"];
-const adj = ["successful", "strong", "praised", "mindful", "smart", "stupid"];
-const bye = ["Have a bad day!", "Have a good day!", "Goodbye!"];
+const adj = ["successful", "strong", "praised", "mindful", "smart"];
+const bye = ["Have a good day!", "Goodbye!", "Have a wonderful day!"];
 
 function doIt(){
     const name = document.getElementById("name").value;
